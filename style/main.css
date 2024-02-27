@@ -1,0 +1,345 @@
+@import url(./font.css);
+
+:root {
+    --prymary : #69CF17BF;
+    --secondary : #0C0C0C;
+    --light : #fff;
+    --RR : "Roboto-Regular";
+    --RB : "Roboto-Bold";
+    --RT : "Raleway-Thin";
+    --RRegular : "Raleway-Regular";
+    --RBold : "Raleway-Bold";
+    --RBlack : "Raleway-Black";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    background: var(--secondary);
+}
+
+.container {
+    max-width: 1150px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header-top {
+    padding-block: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--light);
+    font-family: var(--RR);
+    font-size: 16px;
+}
+
+.header-top-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-top-nav-link {
+    color: var(--light);
+    color: #FFF;
+    font-family: var(--RR);
+    font-size: 16px;
+}
+
+.header-bottom {
+    border-top: 1px solid rgba(125, 115, 115, 0.50);
+    border-bottom: 2px solid #fff;
+    padding-block: 6px;
+}
+
+.burger-menu {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+  }
+  
+  .burger-menu-item {
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--light);
+  }
+
+.header-bottom-logo,
+.footer-logo {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--RB);
+    font-size: 36px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    background: var(--prymary);
+    border-radius: 4px;
+}
+
+.header-bottom-nav-link {
+    color: var(--light);
+    font-family: var(--RRegular);
+    font-size: 18px;
+    padding: 22px 10px;
+    transition: .4s;
+}
+
+.header-bottom-nav-link:hover {
+    background: var(--prymary);
+}
+
+.banner {
+    background: url(../image/images/food-burger-wallpaper-preview\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 46px;
+}
+
+.banner-info-title {
+    color: var(--prymary);
+    font-family: var(--RBlack);
+    font-size: 72px;
+}
+
+.banner-info-subtitle {
+    color: var(--prymary);
+    font-family: var(--RRegular);
+    font-size: 36px;
+    line-height: 17px;
+    margin-bottom: 18px;
+    display: block;
+}
+
+.banner-info-text {
+    color: var(--light);
+    font-family: var(--RRegular);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.price {
+    color: var(--light);
+    text-align: right;
+    font-family: var(--RT);
+    font-size: 50px;
+    line-height: 25px;
+    padding: 33px 76px;
+    background-color: var(--prymary);
+    backdrop-filter: blur(9px);
+}
+
+.banner-info .content {
+    margin-top: 30px;
+}
+
+.view-btn {
+    color: var(--light);
+    text-align: right;
+    font-family: var(--RRegular);
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 15px 70px;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+}
+
+.catalog {
+    background: #292929;
+}
+
+.catalog-container {
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.catalog-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-block: 20px;
+    box-shadow: 0px 1px 8px 0px rgba(17, 17, 17, 0.30);
+}
+
+.catalog-nav-link {
+    color: var(--light);
+    font-family: var(--RRegular);
+    font-size: 18px;
+    line-height: 24px;
+    position: relative;
+}
+
+.catalog-nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: var(--light);
+    bottom: -19px;
+    left: -3px;
+    transition: .4s;
+}
+
+.catalog-nav-link:hover::after {
+    width: 110%;
+}
+
+.catalog-menu-big-box {
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    background: var(--secondary);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 65px;
+}
+
+.catalog-menu-box {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.catalog-card {
+    max-width: 370px;
+    width: 100%;
+    border: 1px solid #FFF;
+    border-radius: 6px;
+    padding-inline: 15px;
+    padding-block: 15px 20px;
+}
+
+.catalog-card-img {
+    max-width: 338px;
+    width: 100%;
+}
+
+.catalog-card-title {
+    color: var(--light);
+    font-family: var(--RBold);
+    font-size: 19px;
+    line-height: 15px;
+    margin-block: 15px;
+}
+
+.catalog-card-text {
+    color: var(--light);
+    font-family: var(--RRegular);
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.menu-img-wrapper {
+    max-width: 338px;
+    width: 100%;
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(105, 207, 23, 0.90);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    opacity: 0;
+}
+
+.menu-img-wrapper:hover .layer {
+    opacity: 1;
+}
+
+.location {
+    background: var(--light);
+}
+
+.location-title {
+    color: var(--prymary);
+    font-family: var(--RBold);
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
+    padding-block: 20px;
+}
+
+.location-map {
+    width: 100%;
+    height: 500px;
+}
+
+.location-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.page-footer {
+    background: linear-gradient(180deg, #000 0%, rgba(105, 207, 23, 0.50) 100%);
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 30px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 20px;
+    padding-block: 51px 85px;
+    align-items: center;
+    margin-inline: auto;
+    width: max-content;
+}
+
+.footer-top-tel {
+    color: var(--light);
+    font-family: var(--RB);
+    font-size: 20px;
+}
+
+.footer-nav-link {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--RB);
+    font-size: 20px;
+}
+
+
+

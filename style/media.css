@@ -1,0 +1,273 @@
+@media (max-width: 1160px ) {
+    .banner-info-title {
+        font-size: 64px;
+    }
+
+    .banner-info-subtitle {
+        font-size: 28px;
+    }
+
+    .banner-info-text {
+        font-size: 16px;
+    } 
+
+    .price {
+        font-size: 45px;
+        padding: 28px 68px;
+    }
+
+    .view-btn {
+        font-size: 16px;
+        padding: 13px 60px;
+    }
+
+    .catalog-card-text {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
+
+@media (max-width: 1000px ) {
+    .header-bottom-nav-link {
+        padding: 15px 8px;
+        font-size: 14px;
+    }
+    
+    .logo {
+        font-size: 14px;
+    }
+
+    .header-bottom-logo,
+    .footer-logo {
+        padding: 10px 14px;
+        font-size: 25px;
+    }
+
+    .footer-nav-link {
+        font-size: 18px;
+    }
+
+    .footer-top-tel {
+        font-size: 18px;
+    }
+
+    .header-top {
+        padding-block: 15px;
+    }
+
+    .header-top-nav-link {
+        font-size: 14px;
+    }
+
+    .banner {
+        height: 580px;
+    }
+
+    .catalog-nav-link {
+        font-size: 16px;
+    }
+
+    .catalog-menu-box {
+        gap: 20px;
+    }
+
+    .catalog-menu-box {
+        flex-wrap: wrap;
+    }
+
+    #two {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 700px ) {
+    .banner-info-title {
+        font-size: 58px;
+    }
+
+    .banner-info-subtitle {
+        font-size: 25px;
+    }
+
+    .banner-info-text {
+        font-size: 14px;
+    } 
+
+    .price {
+        font-size: 40px;
+        padding: 20px 55px;
+    }
+
+    .view-btn {
+        font-size: 14px;
+        padding: 13px 55px;
+    }
+
+    .header-bottom-nav-link {
+        padding: 13px 8px;
+        font-size: 12px;
+    }
+    
+    .logo {
+        font-size: 12px;
+    }
+
+    .header-bottom-logo,
+    .footer-logo {
+        padding: 6px 10px;
+        font-size: 24px;
+    }
+
+    .header-top {
+        padding-block: 10px;
+    }
+
+    .footer-nav-link {
+        font-size: 16px;
+    }
+
+    .header-top-nav-link {
+        font-size: 12px;
+    }
+
+    .banner {
+        height: 540px;
+    }
+
+    .header-bottom {
+        padding-block: 4px;
+    }
+
+    .catalog-nav {
+        padding-block: 15px;
+        gap: 25px;
+    }
+
+    .catalog-menu-box {
+        flex-wrap: wrap;
+    }
+
+    .footer-top-tel {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 630px ) {
+    .banner-info-title {
+        font-size: 50px;
+    }
+
+    .banner-info-subtitle {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .banner-info-text {
+        font-size: 14px;
+        line-height: 20px;
+    } 
+
+    .location-title {
+        font-size: 40px;
+        padding-block: 12px;
+    }
+
+    .location-map {
+        height: 330px;
+    }
+
+    .footer-nav {
+        padding-block: 30px 50px;
+    }
+    
+}
+
+
+@media (max-width: 560px ) {
+    .banner {
+        height: 520px;
+    }
+
+    .header-top-nav {
+        display: none;
+    }
+
+    .header-top .content {
+        justify-content: center;
+    }
+
+    .header-bottom-nav {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+
+    .price {
+        font-size: 30px;
+        padding: 15px 45px;
+    }
+
+    .view-btn {
+        font-size: 14px;
+        padding: 8px 40px;
+    }
+
+    .banner-info-text {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
+
+@media (max-width:430px ) {
+    .price {
+        font-size: 24px;
+        padding: 10px 30px;
+    }
+
+    .view-btn {
+        font-size: 13px;
+        padding: 6px 25px;
+    }
+
+    .catalog-nav-link {
+        font-size: 13px;
+    }
+
+    .location-title {
+        font-size: 35px;
+        padding-block: 8px;
+    }
+
+    .location-map {
+        height: 300px;
+    }
+
+
+    .footer-logo {
+        font-size: 22px;
+    }
+
+    .footer-top-tel {
+        font-size: 14px;
+    }
+
+    .footer-top {
+        padding-block: 20px;
+    }
+    
+}
+
+
